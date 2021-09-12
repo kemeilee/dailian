@@ -1,0 +1,430 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+
+:root {
+  --fireopal: #ea5057;
+  --fireopal-light: #f9898e;
+  --yankeesblue: #1b1b40;
+  --grey1: white;
+  --grey2: #ececf1;
+  --grey3: #e4e4e9;
+  --grey4: #d5d5da;
+  --grey5: #b9b9c1;
+  --grey6: #80808e;
+  --grey7: #5f5f6b;
+  --grey8: #37373f;
+  --grey9: #212125;
+  --grey10: black;
+  --font-weight-light: 300;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-family-header: "Space Grotesk", "sans-serif";
+}
+
+/*** TEXT COLORS ***/
+
+.text-primary {
+  color: var(--fireopal);
+}
+
+.text-primary-light {
+  color: var(--fireopal-light);
+}
+
+.text-secondary {
+  color: var(--yankeesblue);
+}
+
+.text-grey6 {
+  color: var(--grey6) !important;
+}
+
+.text-grey7 {
+  color: var(--grey7) !important;
+}
+
+body {
+  font-family: "Poppins", "sans-serif";
+}
+
+.navbar.nav-white {
+  padding: 28px 0 28px 0;
+  border-bottom: 1px solid var(--grey2);
+  background-color: white;
+}
+
+.navbar.nav-transparent {
+  padding: 28px 0 28px 0;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0; /* remove the gap so it doesn't close*/
+}
+
+.navbar-nav > li > .dropdown-menu {
+  background-color: white;
+}
+
+.navbar-nav > li > .dropdown-menu a:hover,
+.navbar-nav > li > .dropdown-menu .active {
+  color: var(--fireopal);
+  background-color: white;
+}
+
+.material-icons-outlined.md-18 {
+  font-size: 18x;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/*** Background Images ***/
+
+#main-banner {
+  background-image: linear-gradient(180deg, #ececf1 0%, #cccce5 100%);
+}
+
+@media (min-width: 992px) {
+  #main-banner .container {
+    background-image: url("Assets/heroGraphic.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    padding: 120px 0;
+  }
+}
+
+#hero-text {
+  padding: 40px 0;
+}
+
+#contact-details {
+  border-left: 1px solid var(--grey7);
+  margin-left: 48px;
+  padding: 0 0 0 16px;
+  color: var(--grey6);
+}
+
+.hero-banner {
+  max-width: 736px;
+  margin: 0 auto;
+}
+
+#products-section {
+  background-color: var(--yankeesblue);
+}
+
+#brands-section {
+  background-color: var(--grey2);
+}
+
+#brands-section p {
+  color: var(--yankeesblue);
+  text-align: center;
+}
+
+#ionizers-banner {
+  background-image: url("Assets/heroIonizers.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 160px 0 125px 0;
+}
+
+#test-inks-banner {
+  background-image: url("Assets/heroTestInks.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 160px 0 125px 0;
+}
+
+#esa-banner {
+  background-image: url("Assets/heroElectrostaticAssist.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 160px 0 125px 0;
+}
+
+#doctor-blades-banner {
+  background-image: url("Assets/heroDoctorBlades.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 160px 0 125px 0;
+}
+
+#maintenance-banner {
+  background-image: url("Assets/heroMaintenance.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 160px 0 125px 0;
+}
+
+.padding56 {
+  padding-top: 56px;
+  padding-bottom: 56px;
+}
+
+.padding96 {
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+
+.card {
+  background-color: var(--grey2);
+  border: none;
+  border-radius: 8px;
+  align-items: center;
+}
+
+.logo-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 88px;
+  width: 160px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 16px 0px rgb(0, 0, 0, 0.1);
+  margin: 0 16px;
+}
+
+.product-card {
+  background-color: white;
+  padding: 32px;
+  border-radius: 16px;
+  height: 100%;
+}
+
+.product-card p.small {
+  color: var(--grey7);
+}
+
+.feature-icon {
+  padding-bottom: 24px;
+}
+
+.icon-link {
+  text-decoration: none;
+  text-align: center;
+  color: var(--fireopal);
+}
+
+.icon-link:hover {
+  color: var(--fireopal-light);
+}
+
+.product-card p {
+  margin-bottom: 32px;
+}
+
+#brand-section {
+  margin-bottom: 56px;
+}
+
+#callout-section {
+  background-color: var(--yankeesblue);
+  background-size: cover;
+  margin-bottom: 0px;
+}
+
+.callout-card {
+  background-color: var(--fireopal);
+  padding: 64px 40px;
+  width: 100%;
+}
+
+#callout-section a {
+  color: var(--yankeesblue);
+  text-decoration: none;
+}
+
+#callout-section a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background-color: var(--yankeesblue);
+  color: white;
+}
+
+#footer-products .title,
+#footer-contact .title {
+  color: var(--fireopal-light);
+  margin-bottom: 24px;
+}
+
+#footer-contact .overline {
+  color: var(--fireopal-light);
+  margin-bottom: 8px;
+}
+
+footer a {
+  color: var(--grey6);
+}
+
+footer a:hover {
+  color: var(--fireopal);
+}
+
+#footer-products a {
+  text-decoration: none;
+  color: white;
+}
+
+#footer-products a:hover {
+  opacity: 60%;
+}
+
+#footer-products ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+#footer-products li {
+  margin-bottom: 8px;
+}
+
+/*** Typography ***/
+
+h1 {
+  font-family: var(--font-family-header);
+  font-size: 65px;
+  letter-spacing: -0.5px;
+  color: var(--yankeesblue);
+  font-weight: var(--font-weight-light);
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 105px;
+    letter-spacing: -1.5px;
+  }
+}
+
+h2 {
+  font-family: var(--font-family-header);
+  font-size: 52px;
+  font-weight: var(--font-weight-light);
+}
+
+@media (min-width: 768px) {
+  h2 {
+    font-size: 65px;
+    letter-spacing: -0.5px;
+  }
+}
+
+h3 {
+  font-family: var(--font-family-header);
+  font-size: 26px;
+  font-weight: var(--font-weight-regular);
+}
+
+@media (min-width: 768px) {
+  h3 {
+    font-size: 52px;
+  }
+}
+
+h4 {
+  font-family: var(--font-family-header);
+  font-size: 26px;
+  font-weight: var(--font-weight-regular);
+}
+
+@media (min-width: 768px) {
+  h4 {
+    font-size: 37px;
+  }
+}
+
+h5 {
+  font-family: var(--font-family-header);
+  font-size: 26px;
+  font-weight: var(--font-weight-regular);
+}
+
+h6 {
+  font-family: var(--font-family-header);
+  font-size: 22px;
+  letter-spacing: 0.15px;
+  font-weight: var(--font-weight-medium);
+}
+
+.title {
+  font-family: var(--font-family-header);
+  font-size: 17px;
+  letter-spacing: 0.15px;
+}
+
+.subtitle {
+  font-family: var(--font-family-header);
+  font-size: 15px;
+  letter-spacing: 0.1px;
+}
+
+p {
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  font-weight: var(--font-weight-regular);
+}
+
+p.small {
+  font-size: 13px;
+  letter-spacing: 0.25px;
+  font-weight: var(--font-weight-regular);
+}
+
+.button {
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: var(--font-weight-medium);
+  letter-spacing: 1.25px;
+  text-transform: uppercase;
+}
+
+.caption {
+  font-size: 12px;
+  font-weight: var(--font-weight-regular);
+  letter-spacing: 0.4px;
+  color: var(--grey8);
+}
+
+.overline {
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: var(--font-weight-regular);
+  letter-spacing: 1.5px;
+  color: var(--grey8);
+}
+
+.nav-link {
+  font-family: var(--font-family-header);
+  font-size: 17px;
+  letter-spacing: 0.5px;
+  color: var(--grey8) !important;
+}
+
+.nav-link.active {
+  color: var(--fireopal) !important;
+}
+
+/*** Button ***/
+
+button {
+  border: none;
+  background: none;
+  font-size: 16px;
+  font-weight: var(--font-weight-heavy);
+  letter-spacing: 0.5px;
+  color: var(--yankeesblue);
+  padding: 0;
+  line-height: 26px;
+  transition: opacity 150ms ease;
+  opacity: 1;
+  display: flex;
+  align-items: center;
+}
+
+button:hover {
+  opacity: 0.5;
+}

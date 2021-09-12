@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Dailian International Trading is a distributor of tools and equipment for the converting and printing industry."
+    />
+    <title>Dailian International Trading</title>
+    <link rel="icon" href="logo/favicon16x16.png" sizes="16x16" />
+    <link rel="icon" href="logo/favicon32x32.png" sizes="32x32" />
+    <link rel="icon" href="logo/favicon96x96.png" sizes="96x96" />
+
+    <!-- Bootstrap CDN -->
+    <link 
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" 
+      rel="stylesheet" 
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    
+    <!-- Own CSS -->
+    <link rel="stylesheet" href="style.css"/>
+    
+    <!-- Material Icons -->
+    <link 
+      href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" 
+      rel="stylesheet"
+    />
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <main style="padding-top:104px">
+      
+      <!-- NAVIGATION BAR -->
+      <nav class="navbar navbar-expand-md navbar-light nav-white fixed-top">
+        <div class="container">
+
+          <!-- LOGO -->
+          <a href="index.html"><img src="logo/logo-standard.svg" height="48"/></a>
+
+          <!-- HAMBURGER BUTTON -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- CONTACT DETAILS -->
+          <div class="navbar-text d-none d-lg-inline me-auto caption" id="contact-details">
+            <div>
+              <span class="material-icons-outlined md-18 me-2">call</span>6748 2662
+            </div>
+            <div>
+              <span class="material-icons-outlined md-18 me-2">mail</span>info@dailian.com.sg
+            </div>        
+          </div>  
+
+          <!-- NAV -->
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+              <li class="nav-item pe-4">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a> 
+              </li>
+              
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  >Products</a
+                >
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="ionizers.html">Ionizers</a></li>
+                  <li><a class="dropdown-item" href="test-inks.html">Test Inks</a></li>
+                  <li><a class="dropdown-item" href="doctor-blades.html">Doctor Blades</a></li>
+                  <li><a class="dropdown-item" href="electrostatic-assist.html">Electrostatic Printing Assist</a></li>
+                  <li><a class="dropdown-item" href="maintenance.html">Maintenance Products</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+              
+        </div>
+      </nav>
+
+      <!-- HERO BANNER -->
+      <section class="px-4 mb-0" id="main-banner";>
+        <div class="container">
+          <div class="row flex-lg">
+
+            <div class="col-lg-7" id="hero-text">
+              <h1 class="lh-1 mb-4">
+                Your specialists in converting machines.
+              </h1>
+              <p class="w-75 text-grey7">
+                We supply tools and equipment for the rotogravure and flexographic
+                printing, to ensure smooth and undisrupted manufacturing.
+              </p>
+              <div class="d-grid gap-2 d-md-flex justify-content-md-start"></div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- PRODUCTS SECTION -->
+      <section id="products-section">
+        <div class="container padding96">
+          <h2 class="pt-4 pb-2" style="color:white">Products</h2>
+          
+          <div class="row g-4 py-3 row-cols-1 row-cols-lg-3">
+
+            <div class="col">
+              <div class="product-card">
+                <div class="feature-icon">
+                  <img
+                    style="width: 100%"
+                    src="assets/card-ionizers.png"
+                    alt="Ionizers"
+                  />
+                </div>
+                <h6>Ionizers</h6>
+                <p class="small text-grey7">
+                  Ionizers enable contactless discharging of electrostatic charges
+                  to avoid disruptions.
+                </p>
+                <a href="ionizers.html" class="icon-link button d-flex align-items-center">
+                  View products 
+                  <span class="material-icons-outlined ms-2">arrow_forward</span></a>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="product-card">
+                <div class="feature-icon">
+                  <img
+                    style="width: 100%"
+                    src="assets/card-testInks.png"
+                    alt="Test Inks"
+                  />
+                </div>
+                <h6>Test Inks</h6>
+                <p class="small text-grey7">
+                  Test inks and pens are used to determine the surface energy or
+                  surface tension of materials.
+                </p>
+                <a href="test-inks.html" class="icon-link button d-flex align-items-center">
+                  View products 
+                  <span class="material-icons-outlined ms-2">arrow_forward</span></a>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="product-card">
+                <div class="feature-icon">
+                  <img
+                    style="width: 100%"
+                    src="assets/card-doctorBlades.png"
+                    alt="Doctor Blades"
+                  />
+                </div>
+                <h6>Doctor Blades</h6>
+                <p class="small text-grey7">
+                  Doctor blades for the rotogravure and flexographic printing
+                  industry.
+                </p>
+                <a href="doctor-blades.html" class="icon-link button d-flex align-items-center">
+                  View products 
+                  <span class="material-icons-outlined ms-2">arrow_forward</span></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="row g-4 py-3 row-cols-1 row-cols-lg-3">
+
+            <div class="col">
+              <div class="product-card">
+                <div class="feature-icon">
+                  <img
+                    style="width: 100%"
+                    src="assets/card-ESA.png"
+                    alt="Electrostatic Printing Assist"
+                  />
+                </div>
+                <h6>Electrostatic Printing Assist</h6>
+                <p class="small text-grey7">
+                  Our Heliofurn ESA system is a non-contact electrostatic printing
+                  aid for avoiding "missing dots" in rotogravure printing.
+                </p>
+                <a href="electrostatic-assist.html" class="icon-link button d-flex align-items-center">
+                  View products 
+                  <span class="material-icons-outlined ms-2">arrow_forward</span></a>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="product-card">
+                <div class="feature-icon">
+                  <img
+                    style="width: 100%"
+                    src="assets/card-maintenanceProducts.png"
+                    alt="Maintenance Products"
+                  />
+                </div>
+                <h6>Maintenance Products</h6>
+                <p class="small text-grey7">
+                  Maintenance gels and brushes that maintain the quality of printers
+                  and converters with flexography, offset or rotogravure presses.
+                </p>
+                <a href="maintenance.html" class="icon-link button d-flex align-items-center">
+                  View products 
+                  <span class="material-icons-outlined ms-2">arrow_forward</span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- BENEFITS -->
+      <section id="benefits-section">
+        <div class="container padding96">
+          <h2 class="pb-2">Why choose Dailian</h2>
+          <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+            <div class="col d-flex align-items-start">
+              <div class="icon-square text-dark flex-shrink-0 me-3">
+                <img src="assets/iconTrusted.svg">
+              </div>
+              <div>
+                <h6>Trusted</h6>
+                <p class="text-grey7">
+                  With 27 years of experience in the industry, Dailian is known to deliver and provide solutions for the printing and converting industry.
+                </p>
+              </div>
+            </div>
+            <div class="col d-flex align-items-start">
+              <div class="icon-square text-dark flex-shrink-0 me-3">
+                <img src="assets/iconQuality.svg">
+              </div>
+              <div>
+                <h6>Quality</h6>
+                <p class="text-grey7">
+                  Our understanding of your process demands that we carry only tried and tested products with the best technologies and utmost quality. 
+                </p>
+                
+              </div>
+            </div>
+            <div class="col d-flex align-items-start">
+              <div class="icon-square text-dark flex-shrink-0 me-3">
+                <img src="assets/iconGlobal.svg">
+              </div>
+              <div>
+                <h6>Global</h6>
+                <p class="text-grey7">
+                  We source from countries including Switzerland, France and Germany to bring you the best options for your printing needs.
+                </p>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+  
+      <!-- BRANDS -->
+      <section id="brands-section">
+        <div class="container padding96">
+          <p class="overline">Our trusted partner brands</p>
+          <div class="row row-cols-1 row-cols-md-6 g-4 pt-5 justify-content-center">
+
+            <div class="logo-card mb-4" style="background-color: white">
+              <img
+                src="assets/logoArcotest.png"
+                alt="ArcotestLogo"
+                style="width:136px"
+              />
+            </div>
+
+            <div class="logo-card mb-4" style="background-color: #254C97">
+              <img
+                src="assets/logoEcograph.png"
+                alt="Ecograph Logo"
+                style="width:136px"
+              />
+            </div>
+
+            <div class="logo-card mb-4" style="background-color: white">
+              <img
+                src="assets/logoRecyl.png"
+                alt="Recyl Logo"
+                style="width:136px"
+              />
+            </div>
+
+            <div class="logo-card mb-4" style="background-color: #fec023">
+              <img
+                src="assets/logoSpengler.png"
+                alt="Spengler Logo"
+                style="height: 64px"
+              />
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- CALLOUT -->
+      <section id="callout-section">
+        <div
+          class="
+            container
+            padding56
+            text-light
+            d-flex
+            flex-column
+            align-items-center
+          "
+        >
+          <div class="callout-card">
+            <p class="mb-4">Still can't find what you're looking for?</p>
+            <h3 class="display-5 fw-bold w-75">
+              Contact us at
+              <a href="mailto: info@dailian.com">info@dailian.com</a>
+              or <a href="tel:+6567482662">6748&nbsp2662</a>
+            </h3>
+          </div>
+        </div>
+      </section>      
+      
+      <!-- FOOTER -->
+      <footer>
+        <div class="container padding56">
+          <div class="row small">
+            <div id="footer-company" class="col-lg-3 mb-5">
+              <img src="logo/logo-standard.svg" alt="Logo" class="col pb-4" />
+              <p class="small">
+                Distributor of tools and equipment for the converting and printing
+                industry.
+              </p>
+            </div>
+            <div id="footer-products" class="offset-lg-3 col-sm-6 col-lg-3 mb-5">
+              <p class="title">Products</p>
+              <ul>
+                <li><a href="ionizers.html">Ionizers</a></li>
+                <li><a href="test-inks.html">Test Inks</a></li>
+                <li><a href="doctor-blades.html">Doctor Blades</a></li>
+                <li><a href="electrostatic-assist.html"
+                  >Electrostatic Printing Assist</a
+                ></li>
+                <li><a href="maintenance.html">Maintenance Products</a></li>
+              </div>
+            <div id="footer-contact" class="col-sm-6 col-lg-3">
+              <p class="title">Contact</p>
+              <p class="overline">Singapore (HQ)</p>
+                <div class="mb-2"><span class="material-icons-outlined md-18 me-3 text-primary-light">business</span>Dailian International Trading</div>
+                <div class="mb-2"><span class="material-icons-outlined md-18 me-3 text-primary-light">call</span>6748 2662</div>
+                <div class="mb-2"><span class="material-icons-outlined md-18 me-3 text-primary-light">mail</span>info@dailian.com</div>
+              <p class="overline mt-4">Malaysia</p>
+                <div class="mb-2"><span class="material-icons-outlined md-18 me-3 text-primary-light">business</span>Dailian Enterprise</div>
+                <div class="mb-2"><span class="material-icons-outlined md-18 me-3 text-primary-light">call</span>03-03-74974419 / 012-2887729</div>
+                <div class="mb-2"><span class="material-icons-outlined md-18 me-3 text-primary-light">mail</span>malaysia@dailian.com</div>
+            </div>
+          </div>
+        </div>
+        <hr>
+        <div class="container" style="min-height: 80px">
+        <p class="caption text-grey6 mb-2">Copyright © 2021 Dailian International Trading. All rights reserved.</p>
+        <p class="caption text-grey6 mb-2">Designed and built by <a href="https://www.linkedin.com/in/kemeilee/">Kemei Lee</a></p>
+        </div>
+      </footer>
+        
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+  </body>
+</html>
