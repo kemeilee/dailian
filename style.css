@@ -54,8 +54,10 @@ body {
   background-color: white;
 }
 
-.navbar.nav-transparent {
+.navbar.nav-translucent {
   padding: 28px 0 28px 0;
+  background-color: rgb(255,255,255,0.1);
+  backdrop-filter: blur(8px);
 }
 
 .dropdown:hover .dropdown-menu {
@@ -128,35 +130,35 @@ body {
   background-image: url("assets/hero-ionizers.png");
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 160px 0 125px 0;
+  padding: 224px 0 120px 0;
 }
 
 #test-inks-banner {
   background-image: url("assets/hero-test-inks.png");
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 160px 0 125px 0;
+  padding: 224px 0 120px 0;
 }
 
 #esa-banner {
   background-image: url("assets/hero-electrostatic-assist.png");
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 160px 0 125px 0;
+  padding: 224px 0 120px 0;
 }
 
 #doctor-blades-banner {
   background-image: url("assets/hero-doctor-blades.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 160px 0 125px 0;
+  padding: 224px 0 120px 0;
 }
 
 #maintenance-banner {
   background-image: url("assets/hero-maintenance.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 160px 0 125px 0;
+  padding: 224px 0 120px 0;
 }
 
 .padding56 {
