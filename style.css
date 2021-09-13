@@ -87,7 +87,7 @@ body {
 
 @media (min-width: 992px) {
   #main-banner .container {
-    background-image: url("Assets/heroGraphic.png");
+    background-image: url("assets/hero-graphic.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: right;
@@ -125,35 +125,35 @@ body {
 }
 
 #ionizers-banner {
-  background-image: url("Assets/heroIonizers.png");
+  background-image: url("assets/hero-ionizers.png");
   background-size: cover;
   background-repeat: no-repeat;
   padding: 160px 0 125px 0;
 }
 
 #test-inks-banner {
-  background-image: url("Assets/heroTestInks.png");
+  background-image: url("assets/hero-test-inks.png");
   background-size: cover;
   background-repeat: no-repeat;
   padding: 160px 0 125px 0;
 }
 
 #esa-banner {
-  background-image: url("Assets/heroElectrostaticAssist.png");
+  background-image: url("assets/hero-electrostatic-assist.png");
   background-size: cover;
   background-repeat: no-repeat;
   padding: 160px 0 125px 0;
 }
 
 #doctor-blades-banner {
-  background-image: url("Assets/heroDoctorBlades.jpg");
+  background-image: url("assets/hero-doctor-blades.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   padding: 160px 0 125px 0;
 }
 
 #maintenance-banner {
-  background-image: url("Assets/heroMaintenance.jpg");
+  background-image: url("assets/hero-maintenance.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   padding: 160px 0 125px 0;
