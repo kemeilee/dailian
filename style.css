@@ -56,7 +56,7 @@ body {
 
 .navbar.nav-translucent {
   padding: 28px 0 28px 0;
-  background-color: rgb(255,255,255,0.1);
+  background-color: rgb(255, 255, 255, 0.1);
   backdrop-filter: blur(8px);
 }
 
@@ -140,8 +140,8 @@ body {
   padding: 224px 0 120px 0;
 }
 
-#esa-banner {
-  background-image: url("assets/hero-electrostatic-assist.png");
+#static-control-banner {
+  background-image: url("assets/hero-static-control.png");
   background-size: cover;
   background-repeat: no-repeat;
   padding: 224px 0 120px 0;
@@ -154,8 +154,8 @@ body {
   padding: 224px 0 120px 0;
 }
 
-#maintenance-banner {
-  background-image: url("assets/hero-maintenance.jpg");
+#cleaning-banner {
+  background-image: url("assets/hero-cleaning.png");
   background-size: cover;
   background-repeat: no-repeat;
   padding: 224px 0 120px 0;
